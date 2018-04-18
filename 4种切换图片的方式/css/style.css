@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+}
+@font-face{
+	font-family: "BebasNeue";
+	src:url("BebasNeue.otf");
+}
+body{
+	background: url(../img/10.jpg);
+}
+header > h1{
+	color: #22577a;
+	font-family: "BebasNeue";
+	font-size: 35px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+
+}
+header > h1 > span{
+	color: #7cbcd6;
+
+}
+header > a{
+	background: rgba(104,171,194,.5);
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	font-size: 12px;
+	font-weight: 800;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.09) inset;
+}
+header > a:hover{
+	background:rgba(104,171,194,0.9);
+}
+.current-demo{
+	color: #abcdef;
+	background: rgba(255,255,255,.9);
+}
+header{
+	margin: 10px 5px;
+	text-align: center;
+	padding: 10px;
+}
+input[type=radio]{
+	display: none;
+
+}
+.cr-container{
+	margin: 20px auto;
+	width: 600px;
+	height: 375px;
+	border:20px solid #fff;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	position: relative;
+}
+section > label{
+	float: left;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 300px;
+	left: 0;
+	text-align: center;
+	z-index: 1000;
+	font-style: italic;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+section > label:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background: rgba(130,195,217,.9);
+	box-shadow: 0 0 0 4px rgba(255,255,255,.3) ;
+	z-index: -1;
+}
+.cr-container input:checked + label{
+	color: #68abc2;
+}
+.cr-container input:checked + label:before{
+	background: #fff;
+	box-shadow: 0 0 0 4px rgba(130,195,217,.7)
+}
+section > label:after{
+	content: "";
+	position: absolute;
+	left: 150px;
+	top: -300px;
+	width: 1px;
+	height: 375px;
+	background:linear-gradient(180deg ,rgba(255,255,255,0),rgba(255,255,255,1));
+}
+section > label:lastchild:after{
+	width: 0;
+}
+.select-img-2{
+	left: 150px;
+}
+.select-img-3{
+	left: 300px;
+}
+.select-img-4{
+	left: 450px;
+}
+.cr-bgimg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600px;
+	height: 375px;
+	
+}
+.cr-bgimg > div{
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.clr{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
