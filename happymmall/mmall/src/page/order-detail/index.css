@@ -1,0 +1,89 @@
+.product-table{
+    margin-bottom:20px;
+    width: 100%;
+    border-collapse: collapse;
+    background: #fafafa;
+}
+.product-table .cell{
+    padding: 10px 0;
+    color: #666;
+    border-bottom :1px solid #eee;
+}
+.product-table .cell-th{
+    background: #eee;
+    padding: 10px 0;
+    color: #666;
+}
+
+.product-table .link:hover{
+    color: #c60023;
+}
+
+.product-table .cell-img{
+    width: 10%;
+}
+.product-table .cell-info{
+    width: 45%;
+    text-align: left;
+}
+.product-table .cell-price,
+.product-table .cell-count,
+.product-table .cell-total{
+    width: 15%;
+    text-align: center;
+}
+
+ .order-item .order-info{
+    background: #eee;
+    font-size: 13px;
+    color: #999;
+    padding: 10px;
+    
+}
+.product-table .order-info .order-text{
+    margin-right: 25px;
+   
+}
+.product-table .p-img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ddd;
+}
+.product-table .order-info .order-text .order-number{
+    font-weight: bold;
+}
+.product-table .order-info .order-text .order-total{
+  color:#c60023;
+  font-weight: bold;
+}
+.product-table .order-info  .order-detail{
+    float: right;
+}
+.total{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.total .total-price{
+    color: #c60023;
+    font-weight: bold;
+    font-size: 18px;
+}
+.panel-body .text-line{
+    padding: 10px;
+}
+.panel-body .text-line .text{
+    margin-right: 20px;
+}
+.panel-body .text-line .btn{
+    width: 80px;
+    padding: 0;
+    margin-right: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    text-align: center;
+}

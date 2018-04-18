@@ -1,0 +1,165 @@
+.confirm-wrap .panel{
+    overflow: hidden;
+}
+.address-con .address-item,
+.address-con .address-add{
+    width: 200px;
+    padding: 5px 8px 2px 8px;
+    border: 3px dashed #ccc;
+    margin: 20px 20px 0 0;
+    color: #666;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+.address-con .address-item:hover,
+.address-con .address-add:hover{
+    background: #eee;
+}
+.address-con .address-item.active{
+    border: 3px dashed #c60023;
+}
+.address-con .address-item .address-title{
+    font-size: 13px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ddd; 
+}
+.address-con .address-item .address-detail{
+    margin-top: 5px;
+    height: 40px;
+    line-height: 20px;
+}
+.address-con .address-item .address-opera{
+    height: 15px;
+    line-height: 15px;
+   text-align: right;
+    visibility: hidden;
+}
+.address-con .address-item .address-opera .link{
+    margin-left: 10px;
+}
+.address-con .address-item:hover .address-opera{
+    visibility: visible;
+}
+.address-add{
+    padding: 5px 8px 2px 8px;
+    text-align: center;
+    color: #ccc;
+}
+.address-add .address-new{
+    padding: 6px;
+    font-size: 13.5px;
+}
+.address-add .address-new .fa{
+    line-height: 50px;
+    font-size: 50px;
+    
+}
+.panel .product-table{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.panel .product-table th,
+.panel .product-table td{
+    border-bottom: 1px dotted #ddd;
+}
+.confirm-wrap .product-cell.cell-img{
+    width: 10%;
+    padding: 10px;
+}
+.confirm-wrap .product-cell.cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+
+.confirm-wrap .submit-con{
+ background:#eee;
+ text-align: right;
+}
+.confirm-wrap .submit-con .submit-total{
+    font-size: 18px;
+    font-weight: bold;
+    color:#c60023;
+    vertical-align: middle;
+}
+   
+.confirm-wrap .submit-con .order-submit{
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 35px;
+}
+/* model */
+.model-body{
+}
+.model{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.mask{
+    position:fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 1000;
+}
+.model .model-container{
+    width: 700px;
+    background: #fff;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.model .model-container .model-header{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.model .model-container .model-header .model-title{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 12px;
+}
+/* close就是关闭框的那个x */
+.modal-header .close{
+    position: absolute;
+    padding: 10px;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.model .model-container .model-body .form{
+    padding: 12px 10px 7px 10px;
+}
+.model .model-container .model-body .form-line{
+    margin: 5px 0;
+    font-size: 13px;
+    color: #333;
+    overflow: hidden;
+}
+.model .recevier-tag{
+    color: red;
+}
+.model .model-container .model-body .label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    cursor: pointer;
+}
+.model .model-container .model-body .form-item{
+    height: 30px;
+    outline: none;
+    margin-right: 10px;
+}
+.form-line .address-btn{
+    margin-left: 123px;
+    font-size: 13px;
+    height: 35px;
+    line-height: 35px;;
+
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mmall",
+  "version": "1.0.0",
+  "description": "mmall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " set WEBPACK_ENC=dev && webpack-dev-server --inline --port 8088",
+    "dist": " set WEBPACK_ENC=online && webpack -p    "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:happymmall_betty_group/mmall.git"
+  },
+  "author": "Betty",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  },
+  "keywords": [
+    "mmall"
+  ]
+}

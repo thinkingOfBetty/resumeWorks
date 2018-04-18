@@ -1,0 +1,23 @@
+.nav{
+    background: #eee;
+}
+.user{
+    float: left;
+}
+.nav-list{
+    float:right;
+}
+.user .link{
+    margin-right: 5px;
+}
+.user-info .user.login{
+    display: none; 
+}
+.nav .nav-list{
+    float: right;
+} 
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+    
+}

@@ -1,0 +1,150 @@
+.main-img{
+    width: 420px;
+    height: 400px;
+    border:1px solid #ddd;
+}
+.clearfix{
+    overflow: hidden;
+}
+/* .clearfix:after{
+    display: block;
+    content: "";
+    clear: both;
+} */
+.p-img-wrap{
+    width: 422px;
+    overflow: hidden;
+    float: left;
+}
+.p-img-list{
+    margin-top: 5px;
+    width: 420px;
+    overflow: hidden;
+}
+
+.p-img-list .p-img-item .p-img{
+    width: 74px;
+    height: 74px;
+    float: left;
+    margin-right: 8px;
+    border:1px solid #ddd;
+}
+.p-info-wrap{
+    font-family: '微软雅黑';
+    margin-left: 15px;
+    width: 643px;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+}
+.p-info-wrap .info-item{
+    padding: 10px;
+}
+.p-info-wrap .p-name{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.p-info-wrap .p-subtitle{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #d60023;
+}
+.p-info-wrap .p-price-con{
+    margin:20px 0;
+    background: #eee;
+    
+}
+
+.p-info-wrap .p-price-con .p-price{
+    font-size: 20px;
+    color: #c60023;
+}
+.p-info-wrap .p-quantity-con{
+    margin-top: 15px;
+
+}
+.p-info-wrap  .label{
+    display: inline-block;
+    width: 50px;
+    color:#777;
+}
+.p-count{
+    width: 45px;
+    height: 36px;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+}
+.p-count-btn{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+.p-info-wrap .info-item{
+    position: relative;
+}
+.p-count-btn.plus{
+    position: absolute;
+    left: 115px;
+    top: 10px;
+}
+.p-count-btn.minus{
+    position: absolute;
+    left: 115px;
+    bottom: 10px;
+}
+.cart-add {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #c60023;
+    color: #fff;
+    font-size: 17px;
+    font-family: '宋体'
+}
+.detail-wrap{
+    margin-top: 15px;
+   
+}
+.detail-wrap .detail-tab-con{
+    height: 50px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #d60023
+}
+.detail-wrap .tab-list{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    float: left;
+    background: #c60023;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.detail-wrap .detail-con{
+    padding-top: 20px;
+    background: #fff;
+}
+.detail-wrap .detail-con img{
+    margin:0 auto;
+    display:block;
+}
+/* 错误信息 */
+.err-tip{
+    height: 60px;
+    line-height:60px;
+    font-size: 16px;
+    color:#f60;
+    text-align: center;
+    background: #eee;
+    font-weight: bold;
+}
+ 

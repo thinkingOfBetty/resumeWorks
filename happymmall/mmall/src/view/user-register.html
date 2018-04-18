@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/head-common.html') %>
+       <title><%=htmlWebpackPlugin.options.title%> -happymmal电商平台</title>
+    </head>
+<body>
+        <%= require('html-loader!./layout/nav-simple.html') %>
+        <div class="page-wrap">
+           <div class="w">
+               <div class="user-con">
+                   <div class="user-title">用户登录</div>
+                   <div class="user-box">
+                       <div class="error-item">
+                           <i class="fa fa-minus-circle error-icon"></i>
+                           <p class="err-msg">Error</p>
+            
+                       </div>
+                       <div class="user-item">
+                           <label for="user-name" class="user-label">
+                               <i class="fa fa-user"></i>
+                           </label>
+                           <input type="text" id="user-name" placeholder="请输入用户名" 
+                           autocomplete="off" class="user-content">
+                       </div>
+                       <div class="user-item">
+                            <label for="user-pass" class="user-label">
+                                <i class="fa fa-lock"></i>
+                            </label>
+                            <input type="password" id="user-pass" placeholder="请输入密码" 
+                            autocomplete="off" class="user-content"  ;>
+                        </div>
+                        <div class="user-item">
+                            <label for="password-confirm" class="user-label">
+                                <i class="fa fa-lock"></i>
+                            </label>
+                            <input type="password" id="password-confirm" placeholder="请再次输入密码" 
+                            autocomplete="off" class="user-content"  ;>
+                        </div>
+                        <div class="user-item">
+                            <label for="phone" class="user-label">
+                                <i class="fa fa-phone"></i>
+                            </label>
+                            <input type="text" id="phone" placeholder="请输入手机号码" 
+                            autocomplete="off" class="user-content"  ;>
+                        </div>
+                        <div class="user-item">
+                            <label for="email" class="user-label">
+                                <i class="fa fa-envelope"></i>
+                            </label>
+                            <input type="text" id="email" placeholder="请输入邮箱" 
+                            autocomplete="off" class="user-content"  ;>
+                        </div>
+                        <div class="user-item">
+                            <label for="question" class="user-label">
+                                <i class="fa fa-question"></i>
+                            </label>
+                            <input type="text" id="question" placeholder="请输入密码提示问题" 
+                            autocomplete="off" class="user-content"  ;>
+                        </div>
+                        <div class="user-item">
+                            <label for="answer" class="user-label">
+                                <i class="fa fa-key"></i>
+                            </label>
+                            <input type="text" id="answer" placeholder="请输入问题答案" 
+                            autocomplete="off" class="user-content"  ;>
+                        </div>
+                        
+                        <a href="#" class="btn btn-submit" id="submit">立即注册</a>
+                        <div class="link-item">
+                            <a href="./user-login.html" class="link" >已有账号，去登录>></a>
+                            
+                        </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        
+    
+        <%= require('html-loader!./layout/footer.html') %>
+
+</body>
+
+   
+</html>

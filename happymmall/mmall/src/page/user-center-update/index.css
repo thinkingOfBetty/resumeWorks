@@ -1,0 +1,21 @@
+
+
+.panel .panel-body .form-line{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+}
+.panel-body .btn-submit{
+    background: #c60023;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.form-line .input{
+    line-height: 25px;
+    height: 25px;
+    font-size: 14px;
+    width: 200px;
+
+}

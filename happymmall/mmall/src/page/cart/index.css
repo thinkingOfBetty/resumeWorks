@@ -1,0 +1,138 @@
+
+
+ .cart-table{
+    width:100%;
+    margin-bottom: 10px;
+    border: 1px solid #ebebeb;
+    font-size: 14px; 
+    border-collapse: collapse;
+    
+}
+.cart-header {
+    background: #eee;
+}
+.cart-header .cart-cell{
+    height:40px;
+    line-height:40px;
+}
+
+.cart-table .cell-check{
+    width:14%;
+    text-align: left;
+    padding-left: 20px;
+}
+.cart-list .cart-table .cell-check{
+    width:5%;
+    text-align: left;
+    padding-left: 20px;
+}
+.cart-table .cell-img{
+    width: 9%;
+    text-align: left;
+}
+ .cart-table .cell-info{
+    width: 40%;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.cart-table .cell-price{
+    width: 10%;
+    text-align: center;
+}
+.cart-table .cell-count{
+    width: 15%;
+    text-align: center;
+}
+.cart-table .cell-total{
+    width: 11%;
+    text-align: center;
+    font-weight: bold;
+}
+.cart-table .cell-opera{
+    width: 10%
+}
+
+/* .cart-list .cart-table .cell-img{
+    padding: 10px;
+    width: 80px;
+} */
+.cart-list .cart-table  .p-img{
+    height:  80px;
+    width: 80px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+
+}
+
+.cart-list .cart-table  .p-name{
+    line-height: 18px;
+    text-align: left;
+    display: inline;
+}
+
+.cart-list .cart-table .count-input{
+    width: 58px;
+    height: 28px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+}
+.cart-list .cart-table .count-btn{
+    display: inline-block;
+    width: 20px;
+    line-height: 28px;
+    height: 28px;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.cart-list .cart-cell.cart-delete{
+    color: #555;
+    text-align: center;
+    cursor: pointer;
+}
+.cart-footer{
+    background: #eee;
+    line-height: 50px;
+    overflow: hidden;
+
+}
+.cart-footer .select-con{
+    padding-left: 20px;
+    float: left;
+}
+.cart-footer .delete-con{
+    float: left;
+    margin-left: 20px;
+}
+.cart-footer .submit-con{
+    float: right;
+}
+.cart-footer .submit-total{
+    font-size: 18px;
+    color: #c60023;
+    font-weight: bold;
+    margin-right: 30px;
+    vertical-align:middle;
+}
+.cart-footer .submit-btn{
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    background: #c60023;
+    font-size: 18px;
+    text-align: center;
+
+}
+/* .clear{
+    zoom: 1;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: none;
+} */
