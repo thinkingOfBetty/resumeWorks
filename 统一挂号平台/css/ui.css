@@ -1,0 +1,144 @@
+.ui-search{
+	background: url(../img/ui-search.jpg) no-repeat;
+	position: relative;
+}
+.ui-search .ui-search-selected{
+
+	width: 70px;
+	height: 38px;
+	font-size:14px; 
+	color:#fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 38px;
+
+}
+.ui-search .ui-search-select-list{
+	position: absolute;
+	top: 38px;
+	left: 0;
+	display: none;
+	width: 72px;
+	height: 67px;
+	text-align: center;
+	background: white;
+	box-shadow:3px 3px 5px rgba(0,0,0,0.2);
+	z-index: 2;
+}
+.ui-search .ui-search-select-list a{
+	color: #a5a2a2;
+	line-height: 24px;
+	display: block;
+
+
+}
+.ui-search .ui-search-select-list a:hover{
+	background: #f2f5f7;
+}
+.ui-search .ui-search-input{
+	position: absolute;
+	top: 10px;
+	left: 74px;
+	border: none;
+	outline: none;
+}
+.ui-search .ui-search-submit{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 36px;
+
+}
+.BackTop{
+	display: none;
+	
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	color: #fff;
+	background: rgba(102,102,102,0.8) url(../img/icon-go-up.png) no-repeat center;
+}
+.BackTop:hover{
+	 background: rgba(102,102,102,0.8);
+}
+.BackTop:hover:after{
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	content: "回到顶部";
+
+} 
+.ui-slider{
+	width:544px;
+	height:414px;
+	position: relative;
+	overflow: hidden; 
+}
+.ui-slider-wrap{
+	width:9999px;
+	height:414px;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.5s;
+}
+.ui-slider-wrap .item{
+	display: block;
+	width:544px;
+	height:414px;
+	float: left;
+
+
+}
+.ui-slider-arrow {
+
+	width: 544px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+}
+.ui-slider-arrow .item{
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	background: url(../img/ui-slider-arrow.png) no-repeat ;
+
+}
+
+.ui-slider-arrow .left{
+	left: 0;
+
+}
+.ui-slider-arrow .right{
+	right: 0;
+	background-position: -40px 0;
+
+}
+.ui-slider-process{
+	width: 544px;
+	height: 12px;
+	position: absolute;
+	bottom:20px;
+	left: 0;
+	text-align: center;
+
+}
+.ui-slider-process .item{
+	display: inline-block;
+	width:16px; 
+	height:16px;
+	background: url(../img/ui-slider-process.png) no-repeat;
+}
+.ui-slider-process .item-focus,
+.ui-slider-process .item:hover{
+	background-position:-23px 0;
+}
