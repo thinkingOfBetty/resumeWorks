@@ -1,5 +1,4 @@
 /**
- * Created by 傅令杰
  * 进行小游戏API的测试
  */
 export class ApiExamples {
@@ -37,7 +36,6 @@ export class ApiExamples {
             data: 'MyData',
             success: function (response) {
                 console.log(response);
-                //这里可以根据服务器的指示来做相应的动作
             }
         });
 
@@ -46,7 +44,6 @@ export class ApiExamples {
         //     method: 'GET',
         //     success: function (response) {
         //         console.log(response);
-        //         //这里可以根据服务器的指示来做相应的动作
         //     }
         // });
     }
