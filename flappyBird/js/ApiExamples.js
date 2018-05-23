@@ -56,7 +56,6 @@ export class ApiExamples {
             }
         });
 
-        //注意，我们发送数据必须在wx.onSocketOpen中进行
         wx.onSocketOpen(function () {
             wx.sendSocketMessage({
                 data: '这个是来自客户端的实时消息'
